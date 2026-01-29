@@ -29,7 +29,7 @@ height: 100%;
     width: 250px;
     background-color: aqua;
     flex-shrink: 0;
-    animation: z 5s infinite alternate ease-in ;
+    animation: z 4s infinite alternate linear ;
 }
 
 @keyframes z {
