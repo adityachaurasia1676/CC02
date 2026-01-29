@@ -1,0 +1,42 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html, body{
+width: 100%;
+height: 100%;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box1{
+    height: 30vh;
+    width: 100%;
+    padding-left: 30px;
+    padding-top: 15px;
+    display: flex;
+    gap: 20px;
+   overflow: hidden;
+}
+.con{
+    height: 25vh;
+    width: 250px;
+    background-color: aqua;
+    flex-shrink: 0;
+    animation: z 5s infinite alternate ease-in ;
+}
+
+@keyframes z {
+    0%{
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
